@@ -11,6 +11,13 @@
 		ED855E332B3ABDF5008C8016 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED855E322B3ABDF5008C8016 /* ContentView.swift */; };
 		ED855E352B3ABDF7008C8016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED855E342B3ABDF7008C8016 /* Assets.xcassets */; };
 		ED855E382B3ABDF7008C8016 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED855E372B3ABDF7008C8016 /* Preview Assets.xcassets */; };
+		EDE7197B2D3A23B300981F09 /* TipCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE7197A2D3A23B300981F09 /* TipCalculation.swift */; };
+		EDE7197D2D3A23D300981F09 /* TipCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE7197C2D3A23D300981F09 /* TipCalculatorView.swift */; };
+		EDE7197F2D3A23ED00981F09 /* TipHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE7197E2D3A23ED00981F09 /* TipHistoryView.swift */; };
+		EDE719812D3A262A00981F09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE719802D3A262A00981F09 /* LaunchScreen.storyboard */; };
+		EDE719A32D3A2B4900981F09 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE719A22D3A2B4900981F09 /* OnboardingView.swift */; };
+		EDE719A52D3A34B100981F09 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE719A42D3A34B100981F09 /* SettingsView.swift */; };
+		EDE719A72D3A3A2C00981F09 /* TipCalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE719A62D3A3A2C00981F09 /* TipCalculatorViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		ED855E322B3ABDF5008C8016 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ED855E342B3ABDF7008C8016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED855E372B3ABDF7008C8016 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDE7197A2D3A23B300981F09 /* TipCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculation.swift; sourceTree = "<group>"; };
+		EDE7197C2D3A23D300981F09 /* TipCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorView.swift; sourceTree = "<group>"; };
+		EDE7197E2D3A23ED00981F09 /* TipHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipHistoryView.swift; sourceTree = "<group>"; };
+		EDE719802D3A262A00981F09 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDE719A22D3A2B4900981F09 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		EDE719A42D3A34B100981F09 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EDE719A62D3A3A2C00981F09 /* TipCalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 				ED855E302B3ABDF5008C8016 /* WeSplitApp.swift */,
 				ED855E342B3ABDF7008C8016 /* Assets.xcassets */,
 				ED855E362B3ABDF7008C8016 /* Preview Content */,
+				EDE719802D3A262A00981F09 /* LaunchScreen.storyboard */,
 			);
 			path = WeSplit;
 			sourceTree = "<group>";
@@ -73,6 +88,7 @@
 		EDE719752D3A13F500981F09 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				EDE7197A2D3A23B300981F09 /* TipCalculation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -80,6 +96,7 @@
 		EDE719772D3A140100981F09 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				EDE719A62D3A3A2C00981F09 /* TipCalculatorViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -95,6 +112,10 @@
 			isa = PBXGroup;
 			children = (
 				ED855E322B3ABDF5008C8016 /* ContentView.swift */,
+				EDE7197C2D3A23D300981F09 /* TipCalculatorView.swift */,
+				EDE7197E2D3A23ED00981F09 /* TipHistoryView.swift */,
+				EDE719A22D3A2B4900981F09 /* OnboardingView.swift */,
+				EDE719A42D3A34B100981F09 /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -157,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDE719812D3A262A00981F09 /* LaunchScreen.storyboard in Resources */,
 				ED855E382B3ABDF7008C8016 /* Preview Assets.xcassets in Resources */,
 				ED855E352B3ABDF7008C8016 /* Assets.xcassets in Resources */,
 			);
@@ -169,8 +191,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDE719A52D3A34B100981F09 /* SettingsView.swift in Sources */,
+				EDE7197D2D3A23D300981F09 /* TipCalculatorView.swift in Sources */,
+				EDE719A72D3A3A2C00981F09 /* TipCalculatorViewModel.swift in Sources */,
+				EDE7197F2D3A23ED00981F09 /* TipHistoryView.swift in Sources */,
 				ED855E332B3ABDF5008C8016 /* ContentView.swift in Sources */,
+				EDE719A32D3A2B4900981F09 /* OnboardingView.swift in Sources */,
 				ED855E312B3ABDF5008C8016 /* WeSplitApp.swift in Sources */,
+				EDE7197B2D3A23B300981F09 /* TipCalculation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +329,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
@@ -310,6 +339,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -330,6 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
@@ -339,6 +370,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
